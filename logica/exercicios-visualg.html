@@ -1,70 +1,127 @@
-<!--
-To change this template use Tools | Templates.
--->
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<!DOCTYPE html>
 <html>
-<head>
-    <title>Exercicios de logica - VisualG</title>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Selique">
+
+    <title>Exercicios de logica - VisualG - PJD</title>
+
+    <!-- Bootstrap core CSS -->
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+
+    <!-- Custom styles for this template -->
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
 </head>
 <body>
-<h1>VisualG</h1>
-    <code class="language-visualg">
-        // algoritmo "exercicios aula 26/02/2015"
-        // Função :
-        // Autor :
-        // Data : 26/02/2015
-        // Seção de Declarações
-        var x,y,z:INTEIRO
 
-        inicio
-        // Seção de Comandos
+  <nav class="navbar navbar-inverse">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="/index.html">PJD</a>
+        </div>
+        <div id="navbar" class="collapse navbar-collapse">
+          <ul class="nav navbar-nav">
+            <li disabled="disabled"><a href="#aulas">Aulas / Matérias ></a></li>
+            <li><a href="/logica.html">Aula de logica</a></li>
+            <li><a href="/computacao-grafica.html">Aula de Computação Gráfica</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>
 
 
-        //exercicio 1
-        x <- -5
-        se(x < 0) entao
-           escreva("O número " , x , " é negativo")
-           //se o valor de var for -5
-           //O numero -5 é negativo
-        fimse
+    <div class="container">
 
-        /////////////////////////////////////////////////////////////////
+      <div class="starter-template">
+          <h1>PJD - Exercicios de logica - VisualG</h1>
+          <p class="lead">Exercicio aplicado de Lógica [estrutura de tomada de decisão]</p>
+            
+          <code class="language-visualg">
+                <p>// algoritmo &quot;exercicios aula 26/02/2015&quot;<br />
+                 // Fun&ccedil;&atilde;o :<br />
+                 // Autor :<br />
+                 // Data : 26/02/2015<br />
+                 // Se&ccedil;&atilde;o de Declara&ccedil;&otilde;es<br />
+                 var x,y,z:INTEIRO</p>
 
-        //exercicio 2
-        y <- 5
-        se (y < 0) entao
-           escreva("O número " , y , " é negativo")
-           //se o valor de var for 5
-           //O numero 5 não é negativo
-        senao
-           escreva("O número " , y , " não negativo")
-           //se o valor de var for -5
-           //O numero -5 é negativo
-        fimse
+                <p> inicio<br />
+                 // Se&ccedil;&atilde;o de Comandos</p>
 
-        /////////////////////////////////////////////////////////////////
+                <p>
+                 //exercicio 1<br />
+                 x <- -5<br />
+                 se(x < 0) entao<br />
+                 escreva(&quot;O n&uacute;mero &quot; , x , &quot; &eacute; negativo&quot;)<br />
+                 //se o valor de var for -5<br />
+                 //O numero -5 &eacute; negativo<br />
+                 fimse</p>
 
-        //exercicio 3
-        z <- 5
-        se (z < 0) entao
-           escreva("O número " , y , " é negativo")
-           //se o valor de var for -5
-           //O numero -5 é negativo
-        senao
-           se (z = 0) entao
-              escreva("O número " , y , " é nulo")
-              //se o valor de var for 0
-              //O numero 0 é nulo
-           senao
-              escreva("O número " , y , " é positivo")
-              //se o valor de var for 5
-              //O numero 5 é positivo
-           fimse// do var = 0
-        fimse//do var < 0
+                <p> /////////////////////////////////////////////////////////////////</p>
 
-        /////////////////////////////////////////////////////////////////
+                <p> //exercicio 2<br />
+                 y <- 5<br />
+                 se (y < 0) entao<br />
+                 escreva(&quot;O n&uacute;mero &quot; , y , &quot; &eacute; negativo&quot;)<br />
+                 //se o valor de var for 5<br />
+                 //O numero 5 n&atilde;o &eacute; negativo<br />
+                 senao<br />
+                 escreva(&quot;O n&uacute;mero &quot; , y , &quot; n&atilde;o negativo&quot;)<br />
+                 //se o valor de var for -5<br />
+                 //O numero -5 &eacute; negativo<br />
+                 fimse</p>
 
-        fimalgoritmo
-     </code>
+                <p> /////////////////////////////////////////////////////////////////</p>
+
+                <p> //exercicio 3<br />
+                 z <- 5<br />
+                 se (z < 0) entao<br />
+                 escreva(&quot;O n&uacute;mero &quot; , y , &quot; &eacute; negativo&quot;)<br />
+                 //se o valor de var for -5<br />
+                 //O numero -5 &eacute; negativo<br />
+                 senao<br />
+                 se (z = 0) entao<br />
+                 escreva(&quot;O n&uacute;mero &quot; , y , &quot; &eacute; nulo&quot;)<br />
+                 //se o valor de var for 0<br />
+                 //O numero 0 &eacute; nulo<br />
+                 senao<br />
+                 escreva(&quot;O n&uacute;mero &quot; , y , &quot; &eacute; positivo&quot;)<br />
+                 //se o valor de var for 5<br />
+                 //O numero 5 &eacute; positivo<br />
+                 fimse// do var = 0<br />
+                 fimse//do var < 0</p>
+
+                <p> /////////////////////////////////////////////////////////////////</p>
+
+                <p> fimalgoritmo</p>
+                             </code>
+      </div>
+
+    </div><!-- /.container -->
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
 </body>
 </html>
