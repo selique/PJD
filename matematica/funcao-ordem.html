@@ -7,7 +7,7 @@
     <meta name="description" content="">
     <meta name="author" content="Selique">
 
-    <title>Aulas de Computação Gráfica - PJD</title>
+    <title>Exercicios de logica - VisualG - PJD</title>
 
     <!-- Bootstrap core CSS -->
     <!-- Latest compiled and minified CSS -->
@@ -47,11 +47,22 @@
     </nav>
 
     <div class="container">
-        <h1>PJD - Aulas de Computação Gráfica</h1>
-        <p class="lead">Material com aulas e exercicíos do técnico em jogos digitais</p>
-        <ul>
-            <li><a href="computacao-grafica/flash-coqueiro.html">Exercico flash - coqueiro animado</a></li>           
-        </ul>
+
+      <div class="starter-template">
+          <h1>PJD - Exercicios de lógica matemática - VisualG</h1>
+          <p class="lead">Faça uma função que recebe 3 valores inteiros por parâmetro e retorna-os ordenados em ordem crescente</p>
+            
+          <code class="language-visualg">
+                <p>algoritmo "semnome"<br />// Fun&ccedil;&atilde;o :<br />// Autor :<br />// Data : 17/03/2015<br />// Se&ccedil;&atilde;o de Declara&ccedil;&otilde;es <br />// Se&ccedil;&atilde;o de Comandos</p>
+<p>var<br />x, y, z: inteiro<br />inicio<br />// Se&ccedil;&atilde;o de Comandos<br />escreval ("Informe o primeiro n&uacute;mero")<br /> leia (x)<br />escreval ("Informe o segundo n&uacute;mero")<br /> leia (y)<br />escreval ("Informe o terceiro n&uacute;mero")<br /> leia (z)</p>
+<p>se (x &lt; y) entao<br /> se (x &lt; z) entao<br /> se (y &lt; z) entao<br /> escreval ("A ordem &eacute;: ", x, ",", y, ",",z)<br /> senao<br /> escreval ("A ordem &eacute;: ", x, ",", z, ",", y)<br /> fimse<br /> fimse<br />fimse</p>
+<p>se (x &gt; y) entao<br /> se (y &lt; z) entao<br /> se (x &lt; z) entao<br /> escreval ("A ordem &eacute;: ", y, ",", x, ",", z)<br /> senao<br /> escreval ("A ordem &eacute;: ", y, ",", z, ",", x)<br /> fimse<br /> fimse<br />fimse</p>
+<p>se (x &gt; y) entao<br /> se (y &gt; z) entao<br /> escreval ("A ordem &eacute;: ", z, ",", y, ",", x)<br /> fimse<br />fimse</p>
+<p>se (x &lt; y) entao<br /> se (x &gt; z) entao<br /> escreval ("A ordem &eacute;: ", z, ",", x, ",", y)<br /> fimse<br />fimse</p>
+<p>fimalgoritmo</p>
+          </code>
+      </div>
+
     </div><!-- /.container -->
 
 
@@ -63,3 +74,4 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
 </body>
 </html>
+
